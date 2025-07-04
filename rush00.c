@@ -9,6 +9,10 @@ void	rush(int x, int y)
 
 	i = 0;
 	j = 0;
+	if (x <= 0 || y <= 0)
+	{
+		return ;
+	}
 	while (i < y) // row i or y
 	{
 		while (j < x ) // col j or x
